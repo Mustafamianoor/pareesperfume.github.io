@@ -1,0 +1,610 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#clr-hea a{
+    color: black;
+
+}
+
+#logo-p{
+    font-weight: bold;
+    color: red;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+#side-img{
+    max-width: auto;
+    margin-left: 20px;
+}
+
+#animation-picture p{
+    display: flex;
+    margin-top: 370px;
+    margin-left: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
+#img1 img{
+    margin-top: 50px;
+}
+#txt-2{
+    
+    font-weight: bold;
+    text-align: center;
+    margin-top: -15px;
+}
+#txt-pri{
+    color: red;
+    text-align: center;
+    margin-top: -20px;
+    font-weight: bold;
+}
+
+
+#animation-picture{
+    border: 2px solid black;
+    max-width: auto;
+    height: 500px;
+    background-image: url('images/imv1.jpg');
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-size: cover;
+    transition-property: transform;
+    transition-duration: 10s;
+    border: 2px solid red;
+    margin-left: 5px;
+}
+@keyframes animation{
+    0%{
+        background-size: cover;
+        background-position: center;
+        background-image: url('images/imv2.jpg');
+    }
+    30%{
+        background-size: cover;
+        background-position: center;
+    }
+    75%{
+        background-size: cover;
+        background-position: center;
+        background-image: url('images/imv4.jpg');
+    }
+}
+#txt-clr{
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
+#offer-txt{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    color: red;
+}
+.txt-offr{
+    margin-top: 30px;
+    text-align: center;
+    color: black;
+    cursor: default;
+    font-weight: bold;
+    font-style: italic;
+
+
+}
+#line-txt{
+    height: 2px;
+    max-width: auto;
+    display: inline-block;
+    background-color: black;
+    display: none;
+}
+.txt-offr:hover{
+    color: red;
+}
+.img-fluid{
+    margin-left: 40px;
+}
+#img1 img{
+    margin-top: 60px;
+    margin-left: 5px;
+    height: 49%;
+}
+.txt-pr{
+    text-align: center;
+    font-weight: bold;
+    line-height: 1px;
+}
+.txt-rp{
+    color: red;
+    line-height: 0px;
+}
+#dis-pic img{
+    margin-top: 70px;
+    width: 63%;
+    line-height: 10px;
+    height: 220px;
+    margin-left: 40px;
+}
+#dis-pic .txt-pr{
+    margin-left: 30px;
+}
+#dis-pic p{
+    text-align: center;
+    font-weight: bold;
+}
+#dis-p{
+    margin-top: -20px;
+    color: red;
+}
+#trn-txt{
+    margin-top: 40px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: red;
+    cursor: default;
+    
+}
+#trn-txt2{
+    text-align: center;
+    margin-top: 10px;
+    max-width: auto;
+    font-weight: bold;
+    cursor: default;
+}
+#trn-img1{
+    margin-top: 30px;
+}
+#trn-img2{
+    margin-top: 30px;
+}
+#trn1-p{
+    text-align: right;
+    margin-top: -50px;
+    cursor: default;
+}
+#trn2-p{
+    text-align: right;
+    margin-top: 15px;
+    cursor: default;
+    
+}
+#trn3-p{
+    text-align: right;
+    margin-top: 15px;
+    cursor: default;
+    
+}
+.trn-p{
+    text-align: center;
+    color: red;
+    cursor: default;
+}
+
+
+
+
+
+
+
+@media(max-width:390px){
+    #line-txt{
+        height: 2px;
+        width: 100%;
+        display: inline-block;
+        background-color: red;
+        line-height: 5px;
+    }
+    #offer-txt{
+        margin-left: -25%;
+    }
+
+    
+    .img-fluid{
+        margin-left: 70px;
+    }
+    #img1 img{
+        margin-top: 20px;
+        margin-left: 5px;   
+    }
+    .txt-offr{
+        margin-top: 50px;
+    }
+    #dis-pic img{
+        margin-top: 20px;
+    }
+    #dis-pic h3{
+        margin-top: -80px;
+    }
+    .txt-prr{
+        margin-left: -10px;
+    }
+    #side-img{
+        margin-left: 0px;
+    }
+    #txt-2{
+    
+        margin-left: -80px;
+    }
+    #txt-pri{
+        margin-left: -65px;
+        
+    }
+    #dis-pic img{
+        margin-left: 22px;
+    }
+    #dis-pic p{
+        margin-left: -70px;
+    }
+    #dis-p{
+        margin-top: -20px;
+    }
+    #trn-txt{
+        margin-top: 40px;
+        text-align: center;
+        font-style: italic;
+        font-size: 20px;
+        margin-left: -30px;
+    
+    }
+    .trn-mg{
+        margin-left: -3px;
+    }
+  
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color: black;
+}
+
+#img-footer{
+    width: 10vw;
+    height: 10vh;
+    margin-left: 10px;
+}
+
+footer{
+    width: 100%;
+    bottom: 0;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: #fff;
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+#fooer-row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col-footer{
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+.col:nth-child(2), .col:nth-child(3){
+    flex-basis: 15%;
+}
+
+.col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.emai-id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+#footer ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+#footer ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#footer-form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+
+form  .fas{
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+form input{
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
+}
+
+form button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+form button .fas{
+    font-size: 16px;
+    color: #ccc;
+}
+
+.social-icons .fab{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.underline{
+    width: 100%;
+    height: 5px;
+    background: #767676;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    overflow: hidden;
+}
+
+.underline span{
+    width: 15px;
+    height: 100%;
+    background: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+}
+
+@keyframes moving{
+    0%{
+        left: -20px;
+    }
+    100%{
+        left: 100%;
+    }
+
+}
+
+.project1{
+    background-color: rgb(16, 17, 17);
+    color: aliceblue;
+    font-size: large;
+         }
+#ani-1{
+    margin-top: 30px;
+}
+
+
+         #animation-men{
+            border: 2px solid black;
+            max-width: auto;
+            height: 450px;
+            background-image: url(animation\ pic\ 1.jpg);
+            animation-name: animation2;
+            animation-duration: 10s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            background-size: cover;
+            animation-direction: reverse;
+            margin: auto;
+            transition-property: transform;
+            transition-duration: 10s;
+        }
+        @keyframes animation2{
+            0%{
+                background-size: cover;
+                background-position: center;
+                background-image: url('bk\ 9.jpg');
+            }
+            30%{
+                background-size: cover;
+                background-position: center;
+                background-image: url('animation\ pic\ 2.jpg');   
+            }
+            75%{
+                background-size: cover;
+                background-position: center;
+                background-image: url(animation\ pic\ 3.jpg);
+            }
+            100%{
+                background-size: cover;
+                background-position: center;
+                background-image: url('animation\ pic\ 4.jpg');
+
+            }
+        }
+        #row-txt{
+            margin-top: 20px;
+        }
+        #row-img{
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+#men-txt{
+    color: red;
+    margin-top: 30px;
+    font-size: 60px;
+    font-style: italic;
+
+}
+#men-pr{
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+#men-txt{
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+#wome-div{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#wome-div h2{
+    color: red;
+    font-style: italic;
+    text-align: center;
+}
+#womens-pic{
+    border: 2px solid black;
+    max-width: auto;
+    height: 450px;
+    background-image: url(womens\ pic\ 2.png);
+    animation-name: animation1;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    background-size: cover;
+    animation-direction: reverse;
+    margin: auto;
+    transition-property: transform;
+    transition-duration: 10s;
+}
+@keyframes animation1{
+    0%{
+        background-size: cover;
+        background-position: center;
+        background-image: url('womens\ pic\ 8.png');
+    }
+    30%{
+        background-size: cover;
+        background-position: center;
+        background-image: url('womens\ pic\ 9.png');   
+    }
+    75%{
+        background-size: cover;
+        background-position: center;
+        background-image: url('womens\ pic\ 12.png');
+    }
+    100%{
+        background-size: cover;
+        background-position: center;
+        background-image: url('womens\ pic\ 14.png');
+
+    }
+}
+.womn-side{
+    max-width: 330px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.womn-txt{
+    color: red;
+    text-align: center;
+    font-size: 20px;
+
+}
+#lst-row{
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 700px){
+    footer{
+        bottom: unset;
+    }
+
+    .col{
+    flex-basis: 100%;
+}
+
+.col:nth-child(2), .col:nth-child(3){
+    flex-basis: 15%;
+}
+video{
+    max-width: 300px;
+}
+#lgo-txt{
+    font-size: 20px;
+}
+#lgo-txt1{
+    font-size: 10px;
+}
+#logo-igm{
+    width: 0px;
+}
+.womn-side{
+    margin-left: 10px;
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
